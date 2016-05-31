@@ -6,10 +6,10 @@
 // Designers happy, keyboard-navigating users happy
 
 (function(_document,_body,_keyBoardEvent) {
-  var className = ' no-outlines';
+  var className = 'no-outlines';
 
   // hide outlines by default
-  _body.className += className;
+  _body.className += ' ' + className;
 
   // show outlines when using tab
   function onKeyUp(ev) {
